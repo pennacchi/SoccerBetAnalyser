@@ -10,3 +10,9 @@ pip install beautifulSoup
 pip install xlsxwriter
 
 You will also need Qlik Sense.
+
+
+IMPORTANT!
+
+On Qlik Sense, before you load the app, you will need to create a connection betwen your machine and the excel document generated from python.
+For this, you will have to change in the script editor of Qlik Sense app the "Load ...  FROM [lib://Web Scrapping/Jogos 2013 - 2021.xlsx]" to your new connection to your excel file.
